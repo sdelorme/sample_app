@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   namespace :api do
     get "/hello_path" => "example_pages#hello_action"  
     get "/temperature_path" => "example_pages#temperature"
-    get "/Seth_Delorme" => "example_pages#Delorme"
+    get "/Seth_Delorme" => "example_pages#delorme"
   end
 
 end
