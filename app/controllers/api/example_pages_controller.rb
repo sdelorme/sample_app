@@ -5,7 +5,6 @@ class Api::ExamplePagesController < ApplicationController
   end
 
   def temperature
-
     render 'temperature.json.jb'
   end
 
