@@ -5,7 +5,8 @@ class Api::ExamplePagesController < ApplicationController
   end
 
   def temperature
-    render json: {temperature: " Currently, it's 23 degrees F in Chicago"}
+
+    render 'temperature.json.jb'
   end
 
   def delorme
